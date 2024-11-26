@@ -1,0 +1,13 @@
+[gd_scene load_steps=3 format=3 uid="uid://dnfafj011kup4"]
+
+[ext_resource type="PackedScene" uid="uid://bvyv6kescgxi8" path="res://backgroud_scene/backgroud.tscn" id="1_j0ur2"]
+[ext_resource type="PackedScene" uid="uid://bj7bl6mvalowu" path="res://ship_scene/starShip.tscn" id="2_347go"]
+
+[node name="main" type="Node2D"]
+rotation = -5.30234
+
+[node name="backgroud" parent="." instance=ExtResource("1_j0ur2")]
+position = Vector2(9.67583, 16.1052)
+rotation = -0.970808
+
+[node name="Node2D" parent="backgroud" instance=ExtResource("2_347go")]

@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://bj7bl6mvalowu"]
+
+[ext_resource type="Texture2D" uid="uid://c3kntaeydwcou" path="res://assets/PNG_Parts&Spriter_Animation/Ship2/Ship2.png" id="1_x7rl5"]
+[ext_resource type="Script" path="res://ship_scene/star_ship_image.gd" id="2_unk8x"]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+
+[node name="starShipImage" type="Sprite2D" parent="."]
+position = Vector2(241, 95)
+rotation = 0.016392
+texture = ExtResource("1_x7rl5")
+script = ExtResource("2_unk8x")
